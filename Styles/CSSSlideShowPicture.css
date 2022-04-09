@@ -1,0 +1,31 @@
+﻿#content
+{
+    width:481px;
+    height: 330px;
+    /*margin: 20px auto;*/
+    direction: rtl;
+    font: 11px Tahoma;   
+}
+#slideshow
+{
+    border: 1px none #000080;
+    position: absolute;
+    width: 480;
+    height: 330px;
+}
+#slideshow IMG
+{    
+    position: absolute;
+    z-index: 8;
+    /*opacity: 0.5;*/
+}
+#slideshow IMG.active
+{
+    padding-left: 15px;
+    z-index: 10;
+    /*opacity: 1.0;*/
+}
+#slideshow IMG.first-active
+{
+    z-index: 9;
+}

@@ -1,0 +1,213 @@
+/*body 
+{
+    background-color:#F1FFCA;
+    background-repeat:no-repeat !Important;
+    background-position:50% 50% !Important;
+    background-attachment:fixed !Important;
+    height:100% !Important;
+    width:100% !Important;
+    
+    color:#333333;font-size:12px;line-height:18px;margin:20px;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;}a{ color:#377605; font-size:14px;
+                   
+}*/
+a:Images
+{ 
+    color:#FF7200; font-size:14px;    
+}
+   
+b,strong
+{
+    font-weight:bold;
+    color:#000;
+    }
+    #header 
+    {
+        border-bottom:1px dotted #000000
+        ;margin:0 0 20px;padding:20px 0;
+}
+#header h1 
+{
+    font-size:36px;
+    margin:0;
+    }
+    #header h4 
+    {
+        font-weight:normal;
+        margin:7px 0 0;
+        }
+#header h4 a 
+{
+    text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 
+{
+   font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+   font-weight:normal;
+}
+#alert-Box
+ {  
+     padding-bottom: 24px; 
+     cursor:move; 
+     background: url('../Images/Modal/bg-box-bottom.png') bottom left no-repeat !important;
+  background: url('../Images/Modal/bg-box-bottom.gif') bottom left no-repeat;
+}
+#alert-InBox 
+{  
+    padding-top: 15px; 
+     background: url('../Images/Modal/bg-box-top.png') top left no-repeat !important;	
+  background: url('../Images/Modal/bg-box-top.gif') top left no-repeat;	
+}
+#alert-BoxContent
+ {  background: url('../Images/Modal/bg-box-body.png') top left repeat-y !important;
+  background: url('../Images/Modal/bg-box-body.gif') top left repeat-y;
+  padding: 0px 20px;
+  }
+  #alert-BoxContenedor
+   {  
+       padding: 0px 0px 5px 55px;
+         text-align: left;  font-family:Verdana; 
+          font-size:12px;  color:#000;
+}
+#alert-BoxContenedor h1,#alert-BoxContenedor h2,#alert-BoxContenedor h3,#alert-BoxContenedor b,#alert-BoxContenedor strong
+{
+  text-align: left;
+    font-family:Verdana;  
+    font-size:12px; 
+     color:#000;  
+     font-weight:bold;  margin:0px;
+       padding:0px;
+       }
+#alert-Buttons
+{  
+    text-align:right;
+    }
+    #alert-Buttons input 
+    {  
+        margin: 10px 10px;
+        }
+#alert-BoxContenedor #BoxPromptInput
+{ 
+     margin-top:5px;
+     }
+     #alert-Box .BoxAlert
+      { 
+           background: url('../Images/Modal/dialog-warning.png') top left no-repeat;
+}
+#alert-Box .BoxConfirm 
+{ 
+     background: url('../Images/Modal/delete.gif') top left no-repeat;
+}
+#alert-Box .BoxPrompt
+ { 
+      background: url('../Images/Modal/dialog-help.png') top left no-repeat;
+}
+#alert-Box .BoxInfo 
+{  background: url('../Images/Modal/info.gif') top left no-repeat;
+}
+#alert-Box .BoxError
+ {  background: url('../Images/Modal/dialog-error.png') top left no-repeat;
+    }
+    
+    
+.UserNameDisplayField
+{
+     border-bottom-width:0px;
+     border-left-width:0px;
+     border-right-width:0px;
+     border-top-width:0px;
+     font-weight :bold;
+     font-size:large;
+     color:Blue !important;
+     background-color:Transparent;
+     text-transform:capitalize;
+}
+    
+
+/* -------------------- */
+/* Button CLASSES		*/
+/* -------------------- */    
+a.button{
+	background:url(../Images/Modal/button.gif) no-repeat;
+	display:block;
+	color:#555555;
+	font-weight:bold;
+	height:40px;
+	line-height:29px;
+	margin-bottom:14px;
+	text-decoration:none;
+	width:200px;
+	margin-left:5px;
+	text-align:center;
+}
+a:Images/Modal/Modal.button{
+	color:#0066CC;
+	background:url(../Images/Modal/button_Images/Modal/Modal.png) no-repeat;
+}
+
+	.Login{
+		background:url(../Images/Modal/add.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+		
+	}
+	.Logout{
+		background:url(../Images/Modal/info.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.SendMessage{
+		background:url(../Images/Modal/user.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.RegisterUser{
+		background:url(../Images/Modal/alert.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.MessageHistory{
+		background:url(../Images/Modal/msg.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.OnlineUsers{
+		background:url(../Images/Modal/user.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+
+#ConversationMessages
+{
+    width:100%;
+}
+
+#ConversationMessages tr > td
+{
+    vertical-align:text-top;
+    border-bottom-color : Gray;
+    border-bottom-style:dotted;
+    border-bottom-width: 0.5px;
+}
+
+.tooltip {
+	display:none;
+	background:transparent url(../Images/Modal/black_arrow.png);
+	font-size:15px;
+	font-weight:bold;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#fff;	
+}
+.tooltip.bottom {
+	background:url(../Images/Modal/black_arrow_bottom.png);
+	padding-top:40px;
+	height:55px;
+}
+ 
+.tooltip.bottom {
+	background:url(../Images/Modal/black_arrow_bottom.png);
+}

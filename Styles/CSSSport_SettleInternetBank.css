@@ -1,0 +1,57 @@
+﻿#sport_SettleInternetBank
+{
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 600px;
+    color:#fff;
+	background-color: #222222;    
+}
+#sport_SettleInternetBank input[type='text']
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 19px;   
+    direction: rtl;
+	background-color:#252422;
+	color: Lime;
+	border:solid 1px #6b91ab;
+	padding:4px 5px;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;      
+}
+#sport_SettleInternetBank input[type='button']
+{
+    border: thin solid #5d5852;
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 100px;
+    height: 35px;
+    background-color: #333333;
+    color: #FFFFFF;
+    margin: 5px 5px;
+    cursor: pointer;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;   
+}
+#sport_SettleInternetBank input[type='button']:hover
+{
+    color: #ffcc00;
+    font-size: 13px;
+    background-color: #252525;
+}
+#sport_SettleInternetBank select
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 22px;
+    direction: rtl;
+	background-color:#252422;
+	color: Lime;	
+	border:solid 1px #6b91ab;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}

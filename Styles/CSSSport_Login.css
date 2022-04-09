@@ -1,0 +1,125 @@
+﻿.welcome
+{
+    font-family: Tahoma; 
+    font-size: 10px; 
+    width: 70px;
+    padding-left: 100px;
+    padding-bottom: 9px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.loginPanel
+{
+    text-align:right;
+    direction: rtl;
+    width: 100%;
+    height: 55px;    
+    float: right;
+    font-family: Tahoma; 
+    font-size: 10px; 
+    color: #990000;       
+}
+.simpleText
+{
+    width: 70px;
+    text-align: right;
+    direction: rtl;
+    font-family: tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.inputTxt
+{
+    border-style: none;
+    width: 120px;
+    height: 18px;
+    color: lime;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 12px;
+    padding: 0 2px 0 5px;
+    margin: 0 0 10px 0; /*padding: 5px 14px 0px 5px;*/
+    background-color:#222222;
+    background-image: url('../Images/Sport/Sport_txtLogin.png');
+    background-repeat: no-repeat;
+}
+.labelText
+{
+    color: #FFCC00;
+    font-size: 12px;
+    
+}
+.userLoggedin
+{
+    color: #FFCC00;
+    text-decoration: underline;
+}
+.inputBtn
+{
+    border-style: none;
+    font-family: Tahoma;
+    color: #FF9900;
+    font-size: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    padding-bottom: 10px;    
+}
+.rememberMe
+{
+    color: #ffffff;
+    width: 102px;
+    height: 39px;
+    font-family: tahoma;
+    font-size: 9px; 
+    text-align:center;
+    padding-bottom: 5px;
+}
+.logout
+{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+.msg
+{
+    text-align: center;
+    color: Yellow;
+}
+.forgetDiv
+{
+    direction: rtl;
+    width: 144px;
+    height: 43px;
+    text-align: right;
+    padding: 0 5px 5px 0;
+    font-size: 10px;
+    
+}
+.forgetPassword
+{
+    color: #FFFFCC;
+}
+.userSetting
+{
+  color: #ffcc00;
+ text-decoration: underline;
+}
+.register
+{    
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF9900;       
+}
+/*
+.footerlogin
+{
+    background-image: url('../Images/footerlogin.png');
+    background-repeat: no-repeat;
+    width: 175px;
+    height: 25px;
+    direction: rtl;
+    text-align: center;
+}
+*/

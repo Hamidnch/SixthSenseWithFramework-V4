@@ -1,0 +1,180 @@
+﻿#racing
+{
+    width: 97.5%; 
+    height: auto; 
+    direction: rtl;
+    font-family: tahoma;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+.racing_Table
+{
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 30px;
+    color: #ffffff;
+    width: 98%;
+    margin: 0 auto;
+}
+.racing_Titr
+{
+    border: thin solid #FFFFCC;
+    direction: rtl;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: #FFFFCC;
+    width: 54%;
+    /*background-image: url('../Images/Sport/Sport_Racing/RacingTitle.png');
+    background-repeat: repeat-x;*/
+    background-color: #333333;
+    font-weight: bold;
+}
+.formCount
+{
+    width: 45%;  
+    border: thin solid #FFFFCC;
+    direction: rtl;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #FFFFCC;      
+}
+.racing_Cell
+{
+    border: thin solid #FFFFFF;
+    text-align: center;
+    background-color: #333333;    
+}
+.racing_Cell2
+{
+    border: thin solid #FFFFFF;
+    text-align: center;
+    color: Aqua;
+    background-color: #333333;    
+}
+.racing_Grid
+{
+    border: thin solid #5d5852;
+    color: #CCFF33;
+    font-size: 14px;
+    height: auto;
+    width: 98%;
+    padding: 0 2px;
+    margin:5px auto;
+}
+.lblTotalCount
+{
+    text-align: center;
+    color: #FFFFFF;
+    border: thin solid #5d5852;    
+    background-color: #333333;
+    height: 30px;
+    width: 98%;
+    margin: 0 auto;
+}
+.chkFormActive
+{
+    border: thin solid #333333;
+    color: Aqua;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 14x;
+}
+.divBtnForm
+{
+    direction: ltr;
+    padding: 10px 0 10px 0;
+    margin: 0 20px 0 0;
+    float: right;
+}
+.btnForm
+{
+    border: thin solid #5d5852;
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 120px;
+    height: 35px;
+    background-color: #333333;
+    color: #FFFFFF;
+    margin: 5px 5px;
+    cursor: pointer;
+	outline:0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;  
+}
+.btnForm:hover
+{
+    color: #ffcc00;
+    font-size: 13px;
+    background-color: #252525;
+}
+.divBtnForm2
+{
+    direction: ltr;
+    padding: 10px 0 10px 0;
+    margin: 0 4px 0 0;
+    float: right;
+}
+.header_Grid
+{
+    border-width: medium;
+    border-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom-style: solid;
+}
+
+/*******************************************/
+.chkSelect
+{
+/*-webkit-transform: scale(3.3,3.3);*/
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative; /* IE fix to hide overflow */
+}
+fieldset
+{
+    padding: 15px;
+    border: 1px solid #333; /*background:#252525;*/
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+} 
+/*
+.checkbox
+{
+    height: 25px;
+    width: 19px;
+    margin: 0 0 3px;
+    padding: 0 0 0 26px;
+    background: url('../Images/Sport/Sport_Racing/checkbox.png') no-repeat;
+    cursor: default;
+    text-align: center;
+}
+.checkbox input
+{
+	display: none;
+}
+.checkbox input.show
+{
+	display: inline;
+}
+.selected {
+	background-position: 0 -52px;
+}
+.block {
+	width: 50%;
+	float: left;
+}
+label {
+	padding-left:10px;
+	float:left;
+	text-align:left;
+}*/

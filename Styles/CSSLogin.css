@@ -1,0 +1,113 @@
+﻿.welcome
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 70px;
+    padding-bottom: 8px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.loginPanel
+{
+    text-align: right;
+    direction: rtl;
+    width: 100%;
+    height: 55px;
+    float: right;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #990000;
+    padding: 0 5px 0 5px;
+}
+.simpleText
+{
+    width: 70px;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 12px;
+    color: #000000;
+}
+.labelText
+{
+    color: #990000;
+}
+.inputTxt
+{
+    border-style: none;
+    width: 130px;
+    height: 24px;
+    color: #ffffff;
+    background: url('../Images/txtbg.png') no-repeat;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding: 5px 0 0 2px;
+}
+.userLoggedin
+{
+    color: rgb(128, 0, 0);
+    text-decoration: underline;
+}
+.userSetting
+{
+    color: #800000;
+    text-decoration: underline;
+}
+.inputBtn
+{
+    border-style: none;
+    font-family: Tahoma;
+    color: #990000;
+    font-size: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.rememberMe
+{
+    color: #993300;
+    width: 102px;
+    height: 39px;
+    font-family: tahoma;
+    font-size: 9px;
+    text-align: center;
+}
+.logout
+{
+    color: #3333CC;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+.msg
+{
+    text-align: center;
+    color: Yellow;
+}
+.forgetDiv
+{
+    direction: rtl;
+    width: 144px;
+    height: 43px;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 10px;
+}
+.forgetPassword
+{
+    color: Maroon;
+}
+.register
+{
+    color: #3333FF;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footerlogin
+{
+    background-image: url('../Images/footerlogin.png');
+    background-repeat: no-repeat;
+    width: 175px;
+    height: 25px;
+    direction: rtl;
+    text-align: center;
+}

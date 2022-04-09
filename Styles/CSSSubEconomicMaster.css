@@ -1,0 +1,148 @@
+﻿*
+{
+   padding:0;
+   margin :0;
+}
+html
+{
+   overflow: auto;
+}
+body 
+{
+    font-family: Tahoma;
+    font-size: 10px;
+    direction: rtl;    
+    background-image: url('../Images/Economic/Eco_Bg.jpg');
+    background-repeat: repeat;  
+}
+.subEco_wrapper
+{
+    margin: 0 auto;
+    width: 950px;
+    background-image: url('../Images/Economic/Eco_PageShadow.png');
+    background-repeat: repeat-y;
+}
+.subEco_header
+{
+    color  : #333;
+    width  : 950px;
+    height : 204px;
+    background-color: transparent;   
+    clear: both; 
+}
+.subEco_Login
+{    
+    float: right;
+    width: 932px;
+    height: 37px;
+    background-image: url('../Images/Economic/Eco_Login.png');
+    background-repeat: repeat-x;
+    margin-right: 9px;
+}
+.subEco_Menu
+{
+    border-width: thin;
+    border-color: #0033CC;
+    clear: both;
+    background-color: transparent;
+    font-family: tahoma;
+    color: #FFFFFF;
+    height: 30px;
+    width: 932px;
+    text-decoration: underline;
+    margin-right: 9px;
+    background-image: url('../Images/Economic/Eco_SimpleMenu.png');
+    background-repeat: repeat-y;
+}
+.subEco_Menu ul li
+{
+    float:right;
+    padding: 7px 10px 0 0;
+    list-style: none;
+
+}
+.subEco_Menu ul li a    
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    text-decoration: none;
+    color: Yellow;    
+}
+.subEco_Menu ul li a:hover
+{
+    color: #FF9900;
+}
+.subEco_mainContent
+{
+    clear: both;
+    width: 932px;
+    height: auto;
+    background-image: url('../Images/Economic/Eco_MainContent.png');
+    background-repeat: repeat-y;
+    margin: 0 9px 0 0;
+}
+.subEco_Seperator
+{
+    width: 932px;
+    height: 13px;
+    background-image: url('../Images/Economic/Eco_Seprator.png');
+    background-repeat: repeat-x;
+}
+
+.subEco_topMainContent
+{
+    clear: both;
+    width: 876px; 
+    height:57px;
+    margin: 0 29px 0 0;  
+}
+.subEco_LeftTopContent
+{
+    float: left;       
+    background-image: url('../Images/Economic/SubEco_LeftTopContent.png');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 57px;
+}
+.subEco_MiddleTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/SubEco_MiddleTopContent.png');
+    background-repeat: repeat-x;   
+    width: 867px;
+    height: 57px;
+}
+.subEco_RightTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/SubEco_RightTopContent.png');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 57px;
+}
+.subEco_MiddleContent
+{
+    clear: both; 
+    margin: 0 29px 0 0;   
+    background-image: url('../Images/Economic/SubEco_BodyMiddleContent.png');
+    background-repeat: repeat-y;
+    width: 876px;
+    height: auto;
+}
+.subEco_EndContent
+{    
+    margin: 0 29px 0 0;  
+    background-image: url('../Images/Economic/SubEco_EndTopContent.png');
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 876px;
+}
+.subEco_footer
+{
+    clear: both;
+    background-image: url('../Images/Economic/Eco_MainFooter.png');
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 85px;
+    margin: 0 auto;
+}

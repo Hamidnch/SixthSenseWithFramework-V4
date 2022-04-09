@@ -1,0 +1,109 @@
+USE [SenseDB]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_Sport_GetActiveFormsForPdfByRacingInfoID]
+	@racingInfoID NVARCHAR(50)
+AS
+BEGIN
+	SET NOCOUNT ON;                 
+	
+	SELECT tsri.RacingInfo_ID, tsrf.Form_ID,sr.Race_Title,tsri.RacingInfo_Details, tsrf.Form_Amount, tsrf.Form_CreationDate,
+	 tsrf.Form_LastUpdate, tsri.RacingInfo_EndRespiteDate, RacingInfo_EndRespiteTime, tm.Member_UserName	  			
+	FROM tbl_SportRacingForms tsrf, tbl_SportRacingInfo tsri, tbl_SportRace sr, tbl_Membership tm
+	WHERE	tsri.RacingInfo_ID = tsrf.Form_RacingInfoID	
+			AND sr.Race_ID = tsri.RacingInfo_RaceID
+			AND tsrf.Form_UserID = tm.Member_ID 
+            AND tsrf.Form_ActiveStatus = 1 
+            AND tsrf.Form_Description <> '€Ì—›⁄«·  Ê”ÿ ò«—»—'
+            AND tsrf.Form_Description = 'Ê«—Ì“ œ— ’‰œÊﬁ'
+		    AND tsri.RacingInfo_ID  = @racingInfoID	
+		    ORDER BY tsri.RacingInfo_ID
+END 
+//***********************
+
+                  DECLARE @currentDate DateTime
+                  DECLARE @currentTime NVARCHAR(5)
+                    DECLARE @UserFormTable TABLE (RowIndex INT, RacingInfo_ID NVARCHAR(50), Form_ID NVARCHAR(50),
+					Race_Title NVARCHAR(50),RacingInfo_Details NVARCHAR(50),Form_Amount INT, Form_CreationDate DATETIME, 
+					Form_LastUpdate DATETIME, RacingInfo_EndRespiteDate DATETIME, RacingInfo_EndRespiteTime NVARCHAR(8) )	
+	                
+	                SET @currentDate = '2011/09/25'
+	                SET @currentTime = '14:20'
+	                
+                    DECLARE @dateString NVARCHAR(10) = CONVERT(NVARCHAR(10), @currentDate , 111)
+                    DECLARE @timeString NVARCHAR(5) = @currentTime
+                    DECLARE @dateTimeString NVARCHAR(15) = @dateString + ' ' + @timeString
+                	DECLARE @DateTimeNow DATETIME = CONVERT(DateTime, @dateTimeString, 111)
+
+                    INSERT INTO @UserFormTable
+	                    SELECT RowIndex, RacingInfo_ID, Form_ID,Race_Title,RacingInfo_Details, Form_Amount INT, Form_CreationDate, 
+								Form_LastUpdate, RacingInfo_EndRespiteDate, RacingInfo_EndRespiteTime
+	                    FROM 
+	                    ( 
+		                    SELECT ROW_NUMBER() OVER (ORDER BY RacingInfo_ID ASC) AS RowIndex, 
+							 tsri.RacingInfo_ID, tsrf.Form_ID,sr.Race_Title,tsri.RacingInfo_Details, tsrf.Form_Amount, tsrf.Form_CreationDate,
+							 tsrf.Form_LastUpdate, tsri.RacingInfo_EndRespiteDate, RacingInfo_EndRespiteTime
+			                			
+							FROM tbl_SportRacingForms tsrf, tbl_SportRacingInfo tsri, tbl_SportRace sr
+		                    
+							WHERE	(
+									 tsri.RacingInfo_ID = tsrf.Form_RacingInfoID AND 
+									 sr.Race_ID = tsri.RacingInfo_RaceID AND 
+                                     tsrf.Form_UserID = 281 AND 
+                                     tsrf.Form_ActiveStatus = 1 
+									AND( CONVERT(DateTime,(CONVERT(NVARCHAR(10), tsri.RacingInfo_StartRespiteDate , 111) + ' ' + tsri.RacingInfo_StartRespiteTime), 111) <= @DateTimeNow)
+									AND ( CONVERT(DateTime,(CONVERT(NVARCHAR(10), tsri.RacingInfo_EndRespiteDate , 111) + ' ' + tsri.RacingInfo_EndRespiteTime), 111) >= @DateTimeNow)
+                                        )
+                        ) AS NewTable                    
+	                    SELECT RowIndex, RacingInfo_ID, Form_ID,Race_Title,RacingInfo_Details,Form_Amount, Form_CreationDate, 
+								Form_LastUpdate, RacingInfo_EndRespiteDate, RacingInfo_EndRespiteTime
+	                    FROM @UserFormTable
+
+
+
+
+‰„Ê‰Â œÊ„
+************************
+DECLARE @FormTable TABLE(FormInfo_FormID NVARCHAR(50), Form_RacingInfoID NVARCHAR(50), Member_UserName NVARCHAR(255),
+                            Form_CreationDate DATETIME,Form_LastUpdate DATETIME, Form_Amount INT, Form_Prominence INT, 
+                            Form_ActiveStatus BIT, RowIndex INT);                               
+							--DECLARE @row INT = 0;
+							
+                            INSERT INTO @FormTable SELECT DISTINCT FormInfo_FormID, Form_RacingInfoID, Member_UserName,
+                            Form_CreationDate, Form_LastUpdate, Form_Amount,Form_Prominence,Form_ActiveStatus,RowIndex
+                            FROM (                            
+                            SELECT FormInfo_FormID, Form_RacingInfoID, Member_UserName,
+                            Form_CreationDate, Form_LastUpdate, Form_Amount,SUM(FormInfo_Prominence) AS Form_Prominence,Form_ActiveStatus
+							--, @row + 1 as RowIndex
+							,ROW_NUMBER() OVER (ORDER BY Form_CreationDate ASC ) AS RowIndex
+                            FROM tbl_SportRacingFormInfo , tbl_SportRacingForms , tbl_Membership
+                            WHERE (tbl_SportRacingFormInfo.FormInfo_FormID = Form_ID)
+                            AND(Form_RacingInfoID = 'ir1-c5151adf358') AND (Member_ID = Form_UserID)                       
+                            GROUP BY FormInfo_FormID,Form_RacingInfoID,Form_CreationDate,
+									Form_LastUpdate, Member_UserName,Form_ActiveStatus, Form_Amount
+							--ORDER BY Member_UserName ASC
+                            ) AS NewTable
+
+                           
+                            DECLARE @MyTable TABLE(FormInfo_FormID NVARCHAR(50), Form_RacingInfoID NVARCHAR(50), Member_UserName NVARCHAR(255),
+                            Form_CreationDate DATETIME,Form_LastUpdate DATETIME, Form_Amount INT, Form_Prominence INT, Form_ActiveStatus BIT, RowIndex INT);
+                            INSERT INTO @MyTable 
+                            SELECT DISTINCT FormInfo_FormID, Form_RacingInfoID, Member_UserName,
+                            Form_CreationDate, Form_LastUpdate, Form_Amount, Form_Prominence,Form_ActiveStatus, RowIndex
+                            From @FormTable                        
+                            ORDER BY Member_UserName DESC
+
+                            SELECT FormInfo_FormID, Form_RacingInfoID, Member_UserName,
+                            Form_CreationDate, Form_LastUpdate, Form_Amount, Form_Prominence,Form_ActiveStatus, RowIndex
+                            From @MyTable                           
+                            WHERE (RowIndex > 0) AND (RowIndex <= (100) )       
+                            --ORDER BY Form_Prominence ASC                                      
+                            
+                            
+                            
+                            
+                            
+

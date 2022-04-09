@@ -1,0 +1,89 @@
+﻿.ecoPartnership_mainContent
+{
+    clear: both;
+    width: 932px;
+    height: 600px;
+    margin: 0 9px 0 0;
+}
+.button
+{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: #0355A5;
+    float: right;
+    color: #CCFF99;
+    font-family: Tahoma;
+    font-size: 12px;
+    margin: 10px 30px 10px 15px;
+    border: thin solid #6699FF;
+    padding: 0 10px 5px 10px;
+    cursor: pointer;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.button:hover
+{
+    color: #ffcc00;
+    font-size: 13px;
+    background-color: #000099;
+}
+/*
+.ecoPartnership_topMainContent
+{
+    clear: both;
+    width: 876px;
+    height:57px;
+    margin: 0 29px 0 0;
+}
+.ecoPartnership_LeftTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisLeftTopContent.png');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 57px;
+}
+.ecoPartnership_MiddleTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisMiddleTopContent.png');
+    background-repeat: repeat-x;
+    width: 867px;
+    height: 57px;
+}
+.ecoPartnership_MainTitr
+{
+    background-image: url('../Images/Economic/Economic_Partnership/Eco_PartnershipTitr.jpg');
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 56px;
+    margin: 10px;
+}
+.ecoPartnership_RightTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisRightTopContent.png');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 57px;
+}
+.ecoPartnership_MiddleContent
+{
+    clear: both;
+    margin: 0 29px 0 0;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisBodyMiddleContent.png');
+    background-repeat: repeat-y;
+    width: 876px;
+    height: 500px;
+}
+.ecoPartnership_EndContent
+{
+    margin: 0 29px 0 0;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisEndTopContent.png');
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 876px;
+}
+*/

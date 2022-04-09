@@ -1,0 +1,50 @@
+﻿#RacingSelectedResult
+{ 
+    width: 97.5%; 
+    height: auto; 
+    direction: rtl;
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0px;
+    text-align: right;
+}
+.racingSelectedResult_Table { border: 1px ridge #C0C0C0; direction: rtl; font-family: Tahoma; font-size: 12px; line-height: 30px; color: #ffffff; width: 98%; margin: 0 auto; }
+.racingSelectedResult_Table tr { border-style: solid; border-width: 1px; }
+.racingSelectedResult_Titr
+{
+    border: thin solid #FFFFCC;
+    direction: rtl;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: #FFFFCC;
+    width: 54%;
+    background-color: #333333;
+    font-weight: bold;
+}
+.racingSelected_Cell
+{
+    border: thin solid #FFFFFF;
+    text-align: center;
+    background-color: #333333;    
+}
+.racingSelected_Data{color:#ffcc00;}
+.racingSelected_downloadForm { text-align: center; color: Lime; }
+.racing_Grid
+{
+    border: thin solid #5d5852;
+    color: #CCFF33;
+    font-size: 14px;
+    height: auto;
+    width: 98%;
+    padding: 0 2px;
+    margin: 0 auto;    
+}
+.divBtnForm { direction: ltr; padding: 10px 0 10px 0; margin: 0 20px 0 0; clear: both; }
+.btnForm { border: thin solid #5d5852; font-family: Tahoma; font-size: 12px; width: 120px; height: 35px; background-color: #333333; color: #FFFFFF; margin: 5px 5px; cursor: pointer; outline: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.btnForm:hover { color: #ffcc00; font-size: 13px; background-color: #252525; }
+#RacingSelectedResult fieldset { padding: 15px; border: 1px solid #333; -moz-border-radius: 10px; -webkit-border-radius: 10px; margin: 5px; cursor: pointer; } 
+#RacingSelectedResult fieldset:hover { background-color: #464646; border: 1px solid #666666; color: #FFFF00; }
+#RacingSelectedResult fieldset legend { font-weight: bold; padding: 6px; color: #d1d1d1; }

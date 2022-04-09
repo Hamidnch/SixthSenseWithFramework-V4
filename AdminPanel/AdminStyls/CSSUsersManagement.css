@@ -1,0 +1,192 @@
+﻿/*.grid 
+{ 
+	width:99%; 
+	margin:5px;
+	font-family:Tahoma;
+}
+.grid H2 
+{ 
+	margin:0; padding:0; 
+	color:#ffffff;
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+}
+.grid .mid
+{
+	padding:3px 0px 0px 0px;
+}
+.grid .datatable
+{
+	width:100%;
+	color:#666;
+}        
+.grid .datatable TH
+{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding: 2px 4px;
+    color: #FFFFFF;
+    border-bottom: solid 2px #bbd9ee;
+}
+.grid .datatable TH A
+{
+    text-decoration: none;
+    padding-right: 18px;
+    color: #FFFF00;
+}
+.grid .datatable .row TD
+{
+	font-size:11px;
+	text-align:right;
+	padding:6px 4px;
+	border-bottom:solid 1px #bbd9ee;
+}
+
+.grid .datatable .row TD A
+{
+    text-decoration: none;
+    color: #FFFFCC;
+}    
+.grid .datatable .row:hover
+{
+	background-color:#fffacd;
+	color:#000;
+}
+.grid .datatable .row TD.first { padding-left:10px; }
+.grid .datatable TH.first { padding-left:10px; }
+.grid .datatable .row:hover .first
+{
+	background-repeat:no-repeat;   
+	background-image:url(../AdminImages/Gridview/bullet.gif);
+}  
+*/
+/* Data Pager Styles */
+/*
+.grid TR.pager-row TD
+{
+	border-top:solid 2px #bbd9ee;
+}
+.grid .pager
+{
+	font-family:arial,sans-serif;
+	text-align:center;
+	padding:6px;	
+	font-size:12px;
+} 
+.grid .pager SPAN.command,        
+.grid .pager SPAN.current,        
+.grid .pager A.command,
+.grid TR.pager-row TD A
+{
+	color:#5a90ce;
+	padding:0px 5px;
+	text-decoration:none;
+	font-size:12px;
+	border:none;
+}
+.grid .pager A.command:hover,
+.grid TR.pager-row TD A:hover
+{
+	border:solid 2px #408BB6;
+	background-color:#59A5D1;
+	color:#fff;
+	font-size:12px;
+	padding:0px 3px;
+	text-decoration:none;
+}        
+.grid .pager SPAN.current,
+.grid TR.pager-row TD SPAN
+{
+	border:none;
+	font-weight:bold;
+	font-size:12px;
+	color:#3e3e3e;
+	padding:0px 6px;
+}
+.grid TR.pager-row TD
+{
+	border-top:none;
+	text-align:center;
+}
+.grid TR.pager-row TABLE
+{
+	height:30px;
+	margin:0 auto 0 auto;
+}
+*/
+/********************************************************/
+/*
+div.rounded {
+	clear:both;
+	max-width:2400px;
+}
+
+div.rounded div.top-outer
+{
+	background: url('../AdminImages/Gridview/tl.gif') no-repeat left bottom;
+	padding: 0px;
+	width: 100%;
+}
+
+div.rounded div.top-outer div.top-inner {
+	background:url(../AdminImages/Gridview/tr.gif) no-repeat right bottom;
+	margin-left:9px;
+}
+
+div.rounded div.top-outer div.top-inner div.top {
+	background:url(../AdminImages/Gridview/tm.gif) repeat;
+	height:23px;
+	margin-right:9px;
+	font-size:.01em;
+}
+
+div.rounded div.mid-outer {
+	background:url(../AdminImages/Gridview/l.gif) left repeat-y;
+	clear:both;
+	width:100%;
+}
+
+div.rounded div.mid-outer div.mid-inner {
+	background:url(../AdminImages/Gridview/r.gif) right repeat-y;
+	margin-left:9px;    
+}
+
+div.rounded div.mid-outer div.mid-inner div.mid {
+	background-color:#ffffff;
+	margin-right:9px;
+}
+
+div.rounded div.bottom-outer {
+	background:url(../AdminImages/Gridview/bl.gif) no-repeat left top;
+	clear:both;
+	padding:0px;
+	width:100%;
+}
+
+div.rounded div.bottom-outer div.bottom-inner {
+	background:url(../AdminImages/Gridview/br.gif) no-repeat right top;
+	margin-left:8px;
+}
+
+div.rounded div.bottom-outer div.bottom-inner div.bottom {
+	background:url(../AdminImages/Gridview/bm.gif) repeat;
+	/*height:9px;
+	height:12px;
+	margin-right:8px;
+	font-size:.01em;
+}
+
+.DropDownList
+{
+	font-family:Tahoma;
+	font-size:12px;
+	width:150px;
+}
+.label
+{
+    font-family: tahoma;
+    font-size: 10px;
+}
+*/

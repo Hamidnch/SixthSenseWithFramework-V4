@@ -1,0 +1,48 @@
+﻿.sport_Lows
+{
+    direction: rtl;
+    font-family: tahoma;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 840px;
+    line-height: 25px;
+    padding: 30px 40px 10px 40px;
+}
+.sport_AcceptLows
+{
+    direction: rtl;
+    text-align: left;
+    padding: 0 0 10px 50px;  
+}
+.sport_chkAcceptLows
+{
+    direction: ltr;
+    clear: both;
+
+}
+.chkspan
+{
+    color: #ffcccc;    
+    font-size: large;
+}
+.sport_btnAcceptLowsDis
+{
+    border: thin solid #5d5852;
+    font-family: tahoma;
+    font-size: 12px;
+    color: #999999;
+    background-color: #1b1b1b;
+    width: 200px;
+    height: 40px;
+}
+.sport_btnAcceptLows
+{
+    border: thin solid #5d5852;
+    font-family: tahoma;
+    font-size: 12px;
+    color: #EFEFEF;
+    background-color: #990000;
+    width: 200px;
+    height: 40px;
+}

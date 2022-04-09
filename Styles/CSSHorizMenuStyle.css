@@ -1,0 +1,92 @@
+﻿.menu 
+{ 
+    height: 48px;
+    display: block;
+}
+
+.menu ul 
+{
+list-style: none;
+padding-bottom: 0;
+margin: 0;
+}
+.menu ul li 
+{
+/* width and height of the menu items */  
+float: right;
+overflow: hidden;
+position: relative;
+text-align: center;
+line-height: 45px;
+top: 0px;
+right: 0px;
+}
+.menu ul li a 
+{
+/* must be postioned relative  */    
+/* background: #333;*/
+background-image: url('../Images/horizMenu.png');
+background-repeat: repeat-x;
+position: relative;
+display: block;
+width: 150px;
+height: 48px;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: bold;
+color: #FFFFFF;
+text-decoration: none;
+cursor: pointer;
+}
+
+.menu ul li a span
+{
+    /* all layers will be absolute positioned */
+    position: absolute;
+    left: 0;
+    width: 145px;
+    background-image: url('../Images/borderMenu.png');
+    background-repeat: no-repeat;
+}
+
+.menu ul li a span.out {
+top: 0px;
+}
+
+.menu ul li a span.over,
+.menu ul li a span.bg {
+/* hide */  
+top: -45px;
+}
+
+/** 1st example **/
+
+#menu ul li a span.over
+{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+#menu ul li span.bg
+{
+    /* height of the menu items */
+    height: 46px;
+    background: url('../Images/horizMenuSelected.png') no-repeat center center;
+
+}
+		
+/** 2nd example *
+
+#menu2 {
+background: #000;		
+}
+		
+#menu2 ul li a {
+color: #FFF;
+}
+
+#menu2 ul li a span.over {
+background: #FFF;
+color: #000;
+}
+/*

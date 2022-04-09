@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="AdminPanel_Admin" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>بخش مدیریت سایت</title><style type="text/css" media="all">@import url('../AdminStyls/CSSMainAdmin.css');img {behavior:url('AdminScripts/iepngfix.htc') !important;}</style>        
+    <link href="AdminStyls/CSSMainAdmin.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.4.4.js" type="text/javascript"></script>
+<%--    <script src="../Scripts/clockp.js" type="text/javascript"></script>
+    <script src="../Scripts/clockh.js" type="text/javascript"></script>--%>
+    <script src="AdminScripts/functions.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <!-- Header -->
+            <div id="title">
+                حس ششم <span class="field_desc">بخش مدیریتی سایت</span>
+            </div>
+            <div class="logged">
+                <p>وقت بخیر <a href="#" title=""><span id="uName" runat="server"></span></a>!</p>
+                <p><a href="../UserPanel/UserProfileRegister.aspx" style="text-decoration: underline;color:#FFD715">حساب من</a> | <a href="../Home.aspx" style="text-decoration: underline;color:#FFD715">خروج</a></p>
+                <p> شما <span style="color:#ffcc00"> 0 </span><a href="#"> پیغام خوانده نشده دارید</a>!</p>&nbsp;&nbsp;
+            </div>
+<%--            <div id="clock_a" class="clock"></div>--%>
+        </div>
+        <div id="sidebar">
+            <!-- Sidebar -->
+            <div class="sidebox">
+                <span class="stitle">حس ششم</span>
+                <div id="navigation">
+                    <!-- Navigation begins here -->
+                    <div class="sidenav">
+                        <!-- Sidenav -->
+                        <div class="navhead"><span>صفحه نخست</span></div>
+                        <div class="subnav">
+                            <ul class="submenu">
+                                <li><a href="../Home.aspx" title="">سایت</a></li>
+                                <li><a href="#" title="">بازیهای ورزشی</a></li>
+                                <li><a href="../Sport/Sport_Home.aspx" title="">مسابقات فوتبال</a></li>
+                            </ul>
+                        </div>
+                        <div class="navhead"><span>کاربران</span></div>
+                        <div class="subnav">
+                            <ul class="submenu">
+                                <li><a href="UserManagement.aspx" title="">مدیریت کاربران</a></li>
+                                <li><a href="UserAccountDetails.aspx" title="">جزئیات حساب کاربران</a></li>
+                                <li><a href="UserTrafficManagement.aspx" title="">وضعیت ورود کاربران</a></li>
+                            </ul>
+                        </div>
+                        <div class="navhead"><span>اخبار</span></div>
+                        <div class="subnav">
+                            <ul class="submenu">
+                                <li><a href="NewsAdd.aspx" title="">ایجاد اخبار جدید</a></li>
+                                <li><a href="NewsManagement.aspx" title="">مدیریت اخبار سایت</a></li>
+                                <li><a href="RSSReader.aspx" title="">خواندن RSS جدید</a></li>
+                                <li><a href="RSSManagement.aspx" title="">مدیریت اخبار RSS</a></li>
+                            </ul>
+                        </div>
+                        <div class="navhead"><span>اقتصاد و سرمایه گذاری</span>
+                        </div>
+                        <div class="subnav">
+                            <ul class="submenu">                                
+                                <li><a href="EconomicAnalysisAdd.aspx" title="">ایجاد تحلیل جدید</a></li>
+                                <li><a href="EconomicAnalysisManagement.aspx" title="">مدیریت تحلیلهای اقتصادی</a></li>
+                                <li><a href="BongahAdd.aspx" title="">تعریف بنگاه جدید</a></li>
+                                <li><a href="BongahManagement.aspx" title="">مدیریت بنگاه ها</a></li>
+                                <li><a href="ArticleMarketAdd.aspx" title="">تعریف کالای جدید</a></li>
+                                <li><a href="ArticleMarketManagement.aspx" title="">مدیریت بازار کالا</a></li>
+                            </ul>
+                        </div>
+                        <div class="navhead"><span>بازیهای ورزشی</span></div>
+                        <div class="subnav"></div>
+
+                        <div class="navhead"><span>مسابقات فوتبال</span>
+                        </div>
+                        <div class="subnav">
+                            <ul class="submenu">
+                                <li style="color:#ffcc00;font-style:italic">مدیریت مسابقات</li>
+                                <li><a href="SportTeamAdd.aspx" title="">معرفی تیم ها</a></li>
+                                <li><a href="SportTeamManagement.aspx" title="">مدیریت تیم ها</a></li>
+                                <li><a href="SportRaceAdd.aspx" title="">تعریف عناوین مسابقات</a></li>
+                                <li><a href="SportRacingCreation.aspx" title="">ایجاد مسابقه جدید</a></li>
+                                <li style="color:#ffcc00;font-style:italic">نتایج مسابقات</li>
+                                <li><a href="SportRacingManagement.aspx" title="">ورود نتایج مسابقات</a></li>
+                                <li><a href="SportRacingCalculateProminence.aspx" title="">تائید نهائی مسابقات</a></li>
+                                <li style="color:#ffcc00;font-style:italic">صندوق فرمهای مسابقات</li>
+                                <li><a href="SportRacingCurrentForms.aspx" title="">فرمهای درجریان</a></li>
+                                <li><a href="SportRacingActiveForms.aspx" title="">فرمهای فعال</a></li>
+                                <li><a href="SportRacingArchiveForms.aspx" title="">آرشیو فرمهای غیرفعال</a></li>
+                                <li style="color:#ffcc00;font-style:italic"> مشاهده مسابقات</li>
+                                <li><a href="SportRacingReport2.aspx" title="">وضعیت فرمها و برندگان آن</a></li>                                
+                                <li><a href="SportInitialRacing.aspx" title="">لیست مسابقات و جزئیات آنها</a></li>
+                                <li style="color:#ffcc00;font-style:italic">جداول رده بندی مسابقات</li>
+                                <li><a href="SportClassificationTableAdd.aspx" title="">تعریف عناوین جداول</a></li>
+                                <li><a href="#" title="">تعریف جزئیات جداول</a></li>
+                                <li><a href="#" title="">ورود اطلاعات جزئیات</a></li>
+                            </ul>
+                        </div>
+                        <div class="navhead"><span>مالی</span>
+                        </div>
+                        <div class="subnav">
+                            <ul class="submenu">
+                                <li><a href="BoxesInventory.aspx" title="">موجودی</a></li>
+                                <li><a href="BoxesOperation.aspx" title="">عملیات مالی</a></li>
+                                <li><a href="ReportsList.aspx" title="">گزارشات</a></li>
+                            </ul>
+                        </div>
+                        <div class="navhead"><span>صندوق پیام ها</span>
+                        </div>
+                        <div class="subnav">
+                            <ul class="submenu">
+                                <li><a href="ContactUs_SendMessage.aspx" title="">ارسال پیام جدید</a></li>
+                                <li><a href="ContactUs_OutputMessage.aspx" title="">آرشیو پیامهای ارسال شده</a></li>
+                                <li><a href="ContactUs_InputMessage.aspx" title="">پیامهای دریافتی از کاربران</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Navigation -->
+            </div>
+        </div>
+        <!-- END Sidebar -->
+        <div id="main">
+            <div id="content">                  
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <%--<div id="footer"><p>کلیه حقوق این سایت متعلق به حس ششم می باشد..</p></div>--%>
+    </div>
+    </form>
+</body>
+</html>

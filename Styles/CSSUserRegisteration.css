@@ -1,0 +1,265 @@
+﻿#UserRegister{
+    font-family: Tahoma;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-position: center;
+    background-color: #282828;
+    background-image: url('../Images/Bod.png');
+    background-repeat: repeat-y;
+    font-size: 11px;
+}
+#screen
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+}
+#UserRegister .focus
+{
+    float: left;
+    border: thin solid #5d5852;
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: #333333;
+    color: #FFFFFF;
+    margin: 5px 3px 0 10px;
+    cursor: pointer;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#UserRegister .focus:hover
+{
+    color: #ffcc00;
+    font-size: 13px;
+    background-color: #252525;
+}
+
+#UserRegister .col1
+{
+    width: 150px;
+    padding-right: 5px;
+    text-align: right;
+    min-width: 80px;
+}
+#UserRegister .col2
+{
+    width: 178px;
+    text-align: right;
+    min-width: 178px;
+}
+#UserRegister .col3
+{
+    width: 50px;
+}
+#UserRegister input[type="text"], select
+{
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 8pt;
+    background: #1a1a1a;
+    color: #FFFFFF; /* border: 1px solid #333;*/
+    border: 1px solid #999;
+    margin: 2px 0;
+    text-align: left;
+    width: 170px;
+    height: 16px; /*padding-left: 5px;*/
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#UserRegister input[type="password"], input[type="text"].txtUrgent, select.txtUrgent
+{
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 8pt;
+    background: #1a1a1a;
+    color: #FFFFFF; /* border: 1px solid #333;*/
+    border: 1px solid #ffcc00;
+    margin: 2px 0;
+    text-align: center;
+    width: 170px;
+    height: 16px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#UserRegister select.txtUrgent
+{
+    height: 19px;
+    padding-right: 2px;
+}
+#UserRegister .dropdown
+{
+    font-family: Tahoma;
+    background: #1a1a1a;
+    width: 170px;
+    height: 19px;
+    color: #FFFFFF;
+    border: 1px solid #999;
+    padding-right: 2px;
+    margin: 2px 0;
+    text-align: right;
+    line-height: 25px;
+}
+#UserRegister .textarea
+{
+    float: right;
+    background: #1a1a1a;
+    color: #ddd;
+    border: 1px solid #999;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-family: tahoma;
+    font-size: 10px;
+    overflow: auto;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#UserRegister .captcha
+{
+    border: 3px solid #666666;
+    text-align: center;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#UserRegister .memberWrapper
+{
+    margin: 0 auto;
+    width: 932px;
+}
+#UserRegister .memberHeader
+{
+    height: 137px;
+    color: #333;
+    width: 100%;
+    padding-left: 3px;
+}
+#UserRegister .memberMenu
+{
+    direction: rtl;
+    background-image: url('../Images/Demo/MenuMember.png');
+    background-repeat: repeat-x;
+    margin-left: 2px;
+    height: 40px;
+    margin-top: 2px;
+}
+#UserRegister .memberMain
+{
+    clear: both;
+    height: 429px;
+    width: 921px;
+    margin: 20px 15px 0 15px;
+}
+#UserRegister .memberCol1
+{
+    float: right;
+    margin-right: 10px;
+    background-image: url('../Images/Demo/MemberAtter.png');
+    background-repeat: no-repeat;
+    height: 378px;
+    width: 306px;
+}
+#UserRegister .col1Content
+{
+    margin-top: 20px;
+    height: 86%;
+    padding: 10px;
+    text-align: right;
+    direction: rtl;
+}
+#UserRegister .memberCol2
+{
+    float: right;
+    background-image: url('../Images/Demo/MemberPublic.png');
+    background-repeat: no-repeat;
+    height: 378px;
+    width: 306px;
+    margin-right: 20px;
+}
+#UserRegister .col2Content
+{
+    direction: rtl;
+    margin-top: 20px;
+    height: 86%;
+    padding: 10px;
+    text-align: right;
+}
+#UserRegister .memberCol3
+{
+    float: right;
+    background-image: url('../Images/Demo/MemberLaw.png');
+    background-repeat: no-repeat;
+    height: 378px;
+    width: 253px;
+    margin-right: 20px;
+}
+#UserRegister .col3Content
+{
+    direction: rtl;
+    margin-top: 20px;
+    height: 86%;
+    padding: 10px;
+    text-align: right;
+}
+#UserRegister .siteLow
+{
+    padding-top: 10px;
+    color: Yellow;
+}
+#UserRegister .lowText
+{
+    font-family: tahoma;
+    font-size: 10px;
+    overflow: auto;
+    width: 230px;
+    height: 149px;
+    color: Gray;
+    direction: rtl;
+    text-align: right;
+}
+#UserRegister .captchaControl
+{
+    height: 100px;
+    width: 227px;
+}
+#UserRegister .lbl
+{
+    color: White;
+}
+#UserRegister .lblMust
+{
+    color: Lime;
+} 
+#UserRegister .txtBox
+{
+    width: 150px;
+}
+#UserRegister .memberError
+{
+    clear: both;
+    padding-top: 10px;
+}
+#UserRegister .msg
+{
+    clear: both;
+    padding: 0 0;
+}
+#UserRegister .warning
+{
+    font-size: 13px;
+    line-height:25px;
+    direction: rtl;
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+#UserRegister .result
+{
+    color: Yellow;
+}

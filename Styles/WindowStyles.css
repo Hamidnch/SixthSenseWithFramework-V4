@@ -1,0 +1,71 @@
+﻿body
+{
+    font-family:Tahoma,verdana,tahoma,helvetica;
+}
+.WindowTitle
+{
+    background: #d5ff84 url('../Images/Modal/sprite.gif') repeat-x 0px -82px;
+    color: navy;
+    padding: 7px 45px 5px 5px;
+    font-family: Tahoma;
+    font-weight: bold;
+    direction: rtl; /* cursor: move;*/
+}
+
+ div.WindowBody
+{
+    background: url('../Images/Modal/bc.gif') repeat-x center bottom;
+    padding: 5px;
+    padding: 0px !important;
+    height: 100% !important;
+    padding-bottom: 10px !important;
+    overflow: hidden;
+    direction: rtl;
+    line-height: 20px;
+}
+
+ div.WindowBorderLeft  
+{
+    background: url('../Images/Modal/bl.gif') no-repeat left bottom; 
+    padding-left: 7px;
+    height: 100% !important;
+}
+
+ div.WindowBorderRight  
+{
+    background: url('../Images/Modal/br.gif') no-repeat right bottom; 
+    padding-right: 7px;
+    height: 100% !important;
+}
+
+ div.WindowTitleBorderLeft  
+{
+    background:  url('../Images/Modal/sprite.gif') no-repeat 0px -41px; 
+    padding-left: 3px;
+}
+
+  div.WindowTitleBorderRight  
+{
+    background: url('../Images/Modal/sprite.gif') no-repeat right 0px; 
+    padding-right: 3px;
+}
+ .TitleCloseButton  
+{
+  position: absolute;
+  right: 7px;
+  top: 4px;
+  padding: 0 0 0 19px;
+  height: 19px;
+  width: 0px;
+  background: url('../Images/Modal/close.gif') no-repeat top left;
+  overflow: hidden;
+}
+ .TitleCloseButton:hover  
+{
+   background-position: bottom left;
+   outline: none;
+}
+div.b
+{
+ color: Navy;   
+}

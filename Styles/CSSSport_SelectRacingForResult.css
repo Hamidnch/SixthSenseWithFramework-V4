@@ -1,0 +1,53 @@
+﻿#SelectRacingForResult
+{ 
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0px;
+    text-align: right;
+    height: 6px;
+}
+.dl_SelectRacingForResult
+{
+    float: right;
+    padding: 20px 40px;
+    width: auto;
+}
+.SelectRacingForResultTitle
+{
+    color: #ffcc00;
+}
+.SelectRacingForResultTitr
+{
+    padding: 5px 5px 0 0;
+    color: Lime;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;  
+}
+.div_ddlRacing { border: 1px solid #808080; text-align: center; width:96%; height: 38px; padding:5px 0 5px 0 }
+.ddl_Racing
+{
+    font-family: tahoma;
+    font-size: 12px;
+    background-color: #003300;
+    border: thin solid #99CC00;
+    color: #FFFFFF;
+    width: 250px;
+    height:25px;
+    padding: 2px 0;
+}
+/*
+.SelectRacingForResultTitleSubItem
+{
+    color: #FFFFCC;
+}*/
+.SelectRacingForResultSpan { color: #fff; }
+.divBtnForm { direction: ltr; padding: 10px 0 10px 0; margin: 0 20px 0 0; clear: both; }
+.btnForm { border: thin solid #5d5852; font-family: Tahoma; font-size: 12px; width: 120px; height: 35px; background-color: #333333; color: #FFFFFF; margin: 5px 5px; cursor: pointer; outline: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.btnForm:hover { color: #ffcc00; font-size: 13px; background-color: #252525; }
+#SelectRacingForResult fieldset { padding: 15px; border: 1px solid #333; -moz-border-radius: 10px; -webkit-border-radius: 10px; margin: 5px; cursor: pointer; } 
+#SelectRacingForResult fieldset:hover { background-color: #464646; border: 1px solid #666666; color: #FFFF00; }
+#SelectRacingForResult fieldset legend { font-weight: bold; padding: 6px; color: #d1d1d1; }

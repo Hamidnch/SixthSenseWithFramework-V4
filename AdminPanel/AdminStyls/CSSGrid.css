@@ -1,0 +1,116 @@
+﻿.grid .header
+{
+    border: thin solid #FFFFFF;
+    background-image: url('../AdminImages/Gridview/tm.gif');
+    background-repeat: repeat-x;
+    color: White;
+    background-color: Black;
+    height: 25px;
+}
+.grid .row
+{
+    border: 1px solid #666666;
+    color: #FFFF66;
+}
+/*************************************************************/
+/*GridViewCSS Soft Grey Style*/
+.GridViewStyle
+{
+    font-family: Tahoma, Arial, Sans-Serif;
+    font-size: small;
+    table-layout: auto;
+    border: 2px solid #BCC7D8;    
+    background-color: #5374AA;
+}
+.GridViewStyle2 { font-family: Tahoma, Arial, Sans-Serif; font-size: small; table-layout: auto; border: 2px solid #BCC7D8; background-color: #003300; color: #Ffcc00; }
+.GridViewStyle2 thead tr td{font-size:8px;-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px}
+.GridViewStyle2 tbody tr td { border: thin solid #666633; background-color: #232323; color: #ffcc00; }
+
+/*.GridViewStyle2 th.sortasc a{ background:url('/AdminImages/Main/up.png') right center no-repeat; }
+.GridViewStyle2 th.sortdesc a{ background:url('/AdminImages/Main/down.png') right center no-repeat; }*/
+/*Header and Pager styles*/
+.HeaderStyle, .PagerStyle
+{
+    background-image: url('../AdminImages/Gridview/HeaderSoftGrey.jpg');
+    background-position: center;
+    background-repeat: repeat-x;
+    background-color: #1d1d1d;
+    font-weight: bold; 
+    text-align: center;
+}
+.HeaderStyle th
+{
+    padding: 5px;
+    color: White;
+}
+.HeaderStyle a
+{
+    text-decoration:none;
+    color:Window;
+    display:block;
+    text-align:center;
+    font-weight:normal; 
+}
+.PagerStyle table
+{
+    text-align:center;
+    margin:auto;
+}
+.PagerStyle table td
+{
+    border:0px;
+    padding:5px;
+}
+.PagerStyle td
+{
+    border-top: #1d1d1d 1px solid;
+}
+.PagerStyle a
+{
+    color:Window;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+    border-top:solid 1px #777777;
+    border-right:solid 1px #333333;
+    border-bottom:solid 1px #333333;
+    border-left:solid 1px #777777;
+    background-color: #8C8D87;    
+}
+.PagerStyle span
+{
+    font-weight:bold;
+    color:#2a2a2a;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+}
+/*RowStyles*/
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/
+{
+    padding: 3px;
+    border-right: solid 1px #1d1d1d;
+}
+.RowStyle td
+{
+    /* border: thin solid #1F2B3F;*/
+    background-color: #5272A7;
+    color: #FFFF00;
+    vertical-align: middle;   
+}
+.AltRowStyle td
+{
+    background-color: #BCC7D8;
+}
+.SelectedRowStyle td
+{
+    background-color: #ffff66;
+}
+.racing_Grid
+{
+    border: thin solid #5d5852;
+    color: #CCFF33;
+    font-size: 14px;
+    height: auto;
+    width: 98%;
+    padding: 0 2px;
+    margin:5px auto;
+}

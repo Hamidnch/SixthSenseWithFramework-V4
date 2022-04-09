@@ -1,0 +1,58 @@
+﻿.articleOrder_table 
+{
+    width: 750px;    
+    font-family: Tahoma;
+    font-size: 12px;
+    direction: rtl;
+}
+.articleOrder_Header
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.articleOrder_label
+{
+    width: 130px;    
+}
+.articleOrder_text
+{
+    font-family: Tahoma;
+	background-color:rgb(255,255,255);
+	border:solid 1px #6b91ab;
+	padding:4px 5px;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.ddl
+{
+    width: 118px;
+    height: 30px;
+    font-family: Tahoma;
+	background-color:rgb(255,255,255);
+	border:solid 1px #6b91ab;
+	padding:4px 5px;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;    
+}
+.orderType
+{
+    background-color: #EBEBEB;
+    border: thin ridge #003300;
+    text-align: center;
+}
+.btn_RegOrder
+{  
+    border: thin solid #808080;
+    font-family: tahoma;
+    font-size: 12px;
+    background-color: transparent; 
+    background-color: #CCFFFF;
+    color: #000000;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+  }
+

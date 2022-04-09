@@ -1,0 +1,115 @@
+﻿body 
+{
+    direction: rtl;
+}
+.contact_wrapper
+{
+    width: 96%;
+    height: 430px;
+    margin: 0 auto;    
+}
+.contact_Top
+{
+    width: 460px;
+    height: 80px;
+    background-image: url('../Images/ContactUs/Contact_Top.jpg');
+    background-repeat: no-repeat;
+}
+.contact_Middle
+{
+    width: 460px;
+    height: 300px;
+    background-image: url('../Images/ContactUs/Contact_Middle.png');
+    background-repeat: repeat-y;
+}
+.contact_End
+{
+    width: 460px;
+    height: 65px;
+    background-image: url('../Images/ContactUs/Contact_End.png');
+    background-repeat: no-repeat;
+}
+#ContactUs
+{
+    padding: 0 45px 20px 0;
+    font-family: Tahoma;
+    font-size: 10px;
+    margin: 0;
+    width: 90%;
+    height: 292px;
+}
+#ContactUs .input_field
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 300px;
+    padding: 3px 5px;
+    background: #CCCCCC;
+    border: 1px solid #666666;
+    color: #006600;
+}
+
+#ContactUs .phone
+{
+    background: #D7D7D7;
+}
+#ContactUs .label_field
+{
+    display: block;
+    width: 100px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #000000;
+    text-align: right;
+    padding-bottom: 2px;
+}
+#ContactUs .Context_field
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 350px;
+    padding: 5px 5px;
+    background: #CCCCCC;
+    border: 1px solid #666666;
+    color: #006600;  
+    height: 90px; 
+}
+#ContactUs .msg
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    color: #CC3300;
+}
+.submit_btnSend
+{
+    float:right;
+    font-family: Tahoma;
+    font-size: 10px;        
+    width: 69px;
+    height: 24px;
+    margin: 20px 10px;
+    border: none;
+    color: #D09E00;
+    cursor: pointer;
+    margin: 22px 15px 0 0;
+    background: url('../Images/ContactUs/ContactUs_btnSend.png') no-repeat;
+}
+.submit_btnNew
+{
+    float:right;
+    font-family: Tahoma;
+    font-size: 10px;        
+    width: 69px;
+    height: 24px;
+    margin: 20px 10px;
+    border: none;
+    color: #D09E00;
+    cursor: pointer;
+    margin: 22px 3px 0 0;   
+    background: url('../Images/ContactUs/ContactUs_btnNew.png') no-repeat;
+}
+.submit_btnSend:hover
+{
+
+}

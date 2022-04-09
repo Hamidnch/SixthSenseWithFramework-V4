@@ -1,0 +1,29 @@
+/* BROWSER TARGETING: */
+.ie .inputTxt { 
+	padding-top: 5px; }
+.ie7 .inputTxt { 
+	padding-top: 5px; }
+.gecko .inputTxt { 
+	padding-top: 0px; }
+.opera .inputTxt { 
+	padding-top: 0px; }
+.konqueror .inputTxt { 
+	padding-top: 0px; }
+.webkit .inputTxt { 
+	padding-top: 0px; }
+
+/* OPERATING SYSTEM TARGETING: */
+.win.ie7 .inputTxt { 
+	padding-top: 5px; }
+.mac.webkit .inputTxt { 
+	padding-top: 0px; }
+.win.gecko .inputTxt { 
+	padding-top: 0px; }
+.linux.gecko .inputTxt { 
+	padding-top: 0px; }
+/* JAVASCRIPT TARGETING: */
+.no_js .inputTxt { display: block }
+.has_js .inputTxt { display: none }
+.js .no_js .inputTxt { display: none }
+.js .has_js .inputTxt { display: block }
+/* @end */

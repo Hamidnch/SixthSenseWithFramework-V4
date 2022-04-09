@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Education.master.cs" Inherits="Education" %>
+<%@ Register Assembly="FlashControl" Namespace="Bewise.Web.UI.WebControls" TagPrefix="Bewise" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/CSSEducationMaster.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="edu_wrapper">
+        <div class="edu_header">
+            <bewise:flashcontrol id="FlashControl1" runat="server" height="243px"
+                movieurl="~/Flash/Education/FlashEducation.swf" pluginspage="" 
+                quality="Autohigh" width="957px"
+                wmode="Transparent" loop="True" salign="Top" scale="Exactfit" 
+                align="Left" />
+        </div>
+        <div class="edu_HorizMenu">
+<%--            <div class="edu_MenuItem">
+                <ul>
+                    <a href="">صفحه اصلی</a> 
+                    <a href="">آخرین اخبار</a> 
+                    <a href="">قوانین مهاجرتی</a> 
+                    <a href="">رشته های تحصیلی</a> 
+                    <a href="">ارائه خدمات مهاجرتی</a>
+                </ul>
+            </div>--%>
+        </div>
+        <div class="edu_Content">
+            <div class="edu_LeftNews">
+                <div class="edu_LeftTopNews"></div>
+                <div class="edu_LeftBodyNews"></div>
+                <div class="edu_LeftEndNews"></div>
+            </div>
+            <div class="edu_Middle">
+                <div class="edu_MiddleTop"></div>
+                <div class="edu_MiddleContent">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="edu_MiddleBottom"></div>
+            </div>
+            <div class="edu_right">
+                <div class="edu_rightTop"></div>
+                <div class="edu_rightBody"></div>
+                <div class="edu_rightEnd"></div>
+            </div>
+        </div>
+        <div class="edu_Footer"></div>      
+    </div>
+    </form>
+</body>
+</html>

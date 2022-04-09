@@ -1,0 +1,89 @@
+﻿.ecoInvestingConsultant_mainContent
+{
+    clear: both;
+    width: 932px;
+    height: 800px;
+    margin: 0 9px 0 0;
+}
+.ecoBongah_Desc
+{
+    border: thin solid #C0C0C0;
+    font-family: tahoma;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    margin: 0 35px 0 0;
+    padding: 20px 20px;
+    width: 760px;
+    color: white;
+    clear: both;
+}
+/*
+.ecoInvestingConsultant_topMainContent
+{
+    clear: both;
+    width: 876px; 
+    height:57px;
+    margin: 0 29px 0 0;  
+}
+.ecoInvestingConsultant_LeftTopContent
+{
+    float: left;       
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisLeftTopContent.png');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 57px;
+}
+.ecoInvestingConsultant_MiddleTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisMiddleTopContent.png');
+    background-repeat: repeat-x;   
+    width: 867px;
+    height: 57px;
+}
+.ecoInvestingConsultantMainTitr
+{
+    background-image: url('../Images/Economic/Economic_InvestorConsultant/Eco_InvestorConsulatantTitr.jpg');
+    background-repeat: no-repeat;
+    width: 252px;
+    height: 56px;
+    margin: 10px;
+}
+.ecoInvestingConsultant_RightTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisRightTopContent.png');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 57px;    
+}
+.ecoInvestingConsultant_MiddleContent
+{
+    clear: both; 
+    margin: 0 29px 0 0;   
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisBodyMiddleContent.png');
+    background-repeat: repeat-y;
+    width: 876px;
+    height: 700px;
+        padding-top: 15px;
+}
+.ecoInvestingConsultant_EndContent
+{    
+    margin: 0 29px 0 0;  
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisEndTopContent.png');
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 876px;
+}
+
+.ecoServices_footer
+{
+    clear: both;
+    background-image: url('../Images/Economic/Eco_MainFooter.png');
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 85px;
+    margin: 0 auto;
+}
+*/

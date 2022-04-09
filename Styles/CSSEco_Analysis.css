@@ -1,0 +1,112 @@
+﻿.ecoAnalysis_mainContent
+{
+    width: 876px;
+    height: 500px;
+    overflow:hidden;
+    padding-right: 8px;
+}
+.ecoAnalysis_LeftPicContent
+{
+    float: left;
+    width: 278px;
+    height: 500px;
+    margin-left: 13px;
+    /*background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisPic.jpg');
+    background-repeat: no-repeat;*/
+}
+.ecoAnalysis_GridTitle
+{
+    float: right;
+    width: 585px;
+    Height: 500px;
+    overflow: auto;
+    background: transparent;
+}
+.ecoAnalysis_GridContext
+{
+    clear: both;
+    vertical-align:bottom;
+    overflow: auto;
+    padding: 10px 13px 20px 0;
+}
+.analysisTitleRow
+{
+    border-style: solid;
+    border-width: medium medium thick medium;
+    border-color: #009900 #009900 #003300 #009900;
+    font-family: tahoma;
+    font-size: 12px;
+    background-color: #E7EEFE;
+    line-height: 25px;
+    height: 137px;
+    width: 450px;
+    vertical-align: top;
+    padding: 10px;
+    color: #003300;
+}
+.analysisContextRow
+{
+    border: medium solid #00FFFF;
+    font-family: tahoma;
+    font-size: small;
+    height: 200px;
+    padding: 15px 40px;    
+    overflow: auto;
+}
+.analysisReadMore
+{
+    float: left;
+    padding: 10px 0 0 10px;
+}
+#movies 
+{
+	/*margin: 100px auto 0 auto;*/
+	-moz-box-shadow: 0px 0px 10px #333;
+	-webkit-box-shadow:  0px 0px 10px #333;
+	box-shadow:  0px 0px 10px #333;
+	clear:right;
+}
+
+/*
+.ecoAnalysis_RightTextContent
+{
+    float: left;
+    width: 570px;
+    height: 143px;     
+}
+.ecoAnalysis_TopRightTextContent
+{
+    width: 570px;
+    height: 5px;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisTopRightTextContent.png');
+    background-repeat: no-repeat;
+}
+.ecoAnalysis_MiddleRightTextContent
+{
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisMiddleRightTextContent.png');
+    background-repeat: repeat-y;
+    width: 570px;
+    height: 116px;
+    font-family: tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    direction: rtl;    
+    overflow: hidden;
+}
+.ecoAnalysis_EndRightTextContent
+{
+    background-position: bottom;
+    background-image: url('../Images/Economic/Economic_Analysis/Eco_AnalysisEndRightTextContent.png');
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 9px;
+}
+*/
+.ecoAnalysis_Titr
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 18px 5px 0 0;
+}

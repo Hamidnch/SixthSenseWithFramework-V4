@@ -1,0 +1,3 @@
+﻿/// <reference path="jquery-blockUI.js" />
+//'<img src="<=ResolveUrl("~") %>/ajaxImages/loading2.gif" />'
+function setBlock(){$.blockUI({message: '<h1><img src="' + imagePath + '/ajaxImages/loading2.gif" /><br /> چند لحظه منتظر بمانيد...</h1>', fadeIn: 700, fadeOut: 700, css: { border: 'none', padding: '5px', backgroundColor: 'transparent', '-webkit-border-radius': '10px', '-moz-border-radius': '10px', opacity: .6, color: '#fff'}});}

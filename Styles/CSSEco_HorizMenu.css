@@ -1,0 +1,38 @@
+﻿.eco_menu
+{
+    clear: both;
+    width: 932px;
+    height: 47px;
+    background-image: url('../Images/Economic/Eco_HorizMenu.png');
+    background-repeat: repeat-x;
+    margin-right: 9px;
+}
+#top-menu
+{
+    width: 100%;
+    overflow: hidden;
+}
+#top-menu li
+{
+    margin-left: -10px;
+    float: right;
+    list-style: none;
+    background: url('../Images/Economic/Eco_SeparateMenu.png') no-repeat left top;    
+}
+#top-menu li a
+{
+    display: block;
+    font-size: 12px;
+    color: #DBDBDB;
+    text-decoration: none;    
+    width: 145px;
+    text-align: center;
+    line-height: 44px;
+}
+#top-menu li a:hover
+{
+    background-image: url('../Images/Economic/Eco_HorizMenuOver.png');
+    background-repeat: no-repeat;
+    background-position: -5px center;    
+    color: #FFFFFF;
+}

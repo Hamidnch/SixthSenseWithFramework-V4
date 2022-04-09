@@ -1,0 +1,224 @@
+﻿*
+{
+   padding:0;
+   margin :0;
+}
+html
+{
+   overflow: auto;
+}
+body 
+{
+    font-family: Tahoma;
+    direction: rtl;    
+    background-image: url('../Images/Economic/Eco_Bg.jpg');
+    background-repeat: repeat;  
+}
+.eco_wrapper
+{
+    margin: 0 auto;
+    width: 950px;
+    background-image: url('../Images/Economic/Eco_PageShadow.png');
+    background-repeat: repeat-y;
+}
+.eco_header
+{
+    color  : #333;
+    width  : 950px;
+    height : 204px;
+    background-color: transparent;   
+    clear: both; 
+}
+.eco_Login
+{    
+    float: right;
+    width: 932px;
+    height: 37px;
+    background-image: url('../Images/Economic/Eco_Login.png');
+    background-repeat: repeat-x;
+    margin-right: 9px;
+}
+/*
+.eco_menu
+{
+    clear: both;
+    width: 932px;
+    height: 47px;
+    background-image: url('../Images/Economic/Eco_HorizMenu.png');
+    background-repeat: repeat-x;
+    margin-right: 9px;
+}
+#top-menu
+{
+    width: 100%;
+    overflow: hidden;
+}
+#top-menu li
+{
+    margin-left: -10px;
+    float: right;
+    list-style: none;
+    background: url('../Images/Economic/Eco_SeparateMenu.png') no-repeat left top;    
+}
+#top-menu li a
+{
+    display: block;
+    font-size: 12px;
+    color: #DBDBDB;
+    text-decoration: none;    
+    width: 145px;
+    text-align: center;
+    line-height: 44px;
+}
+#top-menu li a:hover
+{
+    background-image: url('../Images/Economic/Eco_HorizMenuOver.png');
+    background-repeat: no-repeat;
+    background-position: -5px center;    
+    color: #FFFFFF;
+}
+*/
+.eco_Seperator
+{
+    width: 932px;
+    height: 13px;
+    background-image: url('../Images/Economic/Eco_Seprator.png');
+    background-repeat: no-repeat;
+    margin-right: 9px; 
+}
+.eco_mainContent
+{
+    clear: both;
+    width: 932px;
+    height: 680px;
+    background-image: url('../Images/Economic/Eco_MainContent.png');
+    background-repeat: repeat-y;
+    margin: 0 9px 0 0;
+}
+.eco_topMainContent
+{
+    background-image: url('../Images/Economic/Eco_TopContent.png');
+    background-repeat: no-repeat;
+    width: 497px;
+    height:40px;
+}
+.eco_middleMainContent
+{
+    background-image: url('../Images/Economic/Eco_MiddleContent.png');
+    background-repeat: repeat-y;
+    width: 497px;
+    height:336px;
+}
+.eco_endMainContent
+{
+    background-image: url('../Images/Economic/Eco_EndContent.png');
+    background-repeat: no-repeat;
+    width: 497px;
+    height:8px;
+}
+.eco_leftPanel
+{
+    padding: 10px 0px 0 0;
+    float: left;
+    width: 77%;
+    height: 410px;    
+}
+.eco_rightPanel
+{
+    padding: 10px 10px 0px 0;
+    float: right;
+    width: 21%;
+}
+.eco_middlePanel
+{
+    padding: 10px 0 0 0;
+    float: right;
+    width: 68%;
+    height: 386px;
+}
+.eco_leftMoney
+{
+    float: left;
+    width: 30%;
+    height: 387px;
+}
+.eco_topMoney
+{
+    width: 207px;
+    height: 48px;
+    background-image: url('../Images/Economic/Eco_TopMoney.png');
+    background-repeat: no-repeat;
+}
+.eco_middleMoney
+{
+    width: 207px;
+    height: 340px;
+    background-image: url('../Images/Economic/Eco_MiddleMoney.gif');
+    background-repeat: repeat-y;
+    color: #FFFFFF;
+}
+.eco_endMoney
+{
+    width: 207px;
+    height: 8px;
+    background-image: url('../Images/Economic/Eco_EndMoney.png');
+    background-repeat: no-repeat;
+}
+.eco_topNews
+{
+    background-image: url('../Images/Economic/Eco_TopNews.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 48px;
+}
+.eco_MiddleNews
+{
+    font-family: Tahoma;
+    font-size: 10px;
+    font-variant: normal;
+    font-weight: normal;
+    background-image: url('../Images/Economic/Eco_MiddleNews.gif');
+    background-repeat: repeat-y;
+    width: 200px;
+    height: 340px;
+}
+.eco_endNews
+{
+    background-image: url('../Images/Economic/Eco_EndNews.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 8px;
+}
+.eco_Pooling
+{
+    clear: both;    
+    width:919px;
+    margin-right: 6px;  
+}
+.eco_topPooling
+{
+    background-image: url('../Images/Economic/Eco_TopPooling.png');
+    background-repeat: no-repeat;
+    height:42px;
+}
+.eco_middlePooling
+{
+    background-image: url('../Images/Economic/Eco_MiddlePooling.png');
+    background-repeat: repeat-y;
+    height: 200px;    
+}
+.eco_endPooling
+{
+    background-image: url('../Images/Economic/Eco_EndPooling.png');
+    background-repeat: no-repeat;
+    height: 8px
+}
+.eco_footer
+{
+    clear: both;
+    background-image: url('../Images/Economic/Eco_MainFooter.png');
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 85px;
+    margin: 0 auto;
+}

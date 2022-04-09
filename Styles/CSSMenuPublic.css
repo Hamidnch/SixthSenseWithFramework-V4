@@ -1,0 +1,49 @@
+﻿#menuPublic
+{
+    clear: both; /*width: 850px;*/
+    height: 40px;
+    padding: 6px 30px 0 30px;
+    background-color: transparent;
+}
+
+#menuPublic ul 	
+{
+    
+	float: right;
+	/*width: 850px;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    width: 750px;
+}
+
+#menuPublic ul li 
+{
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#menuPublic ul li a {   
+	float: right;
+	display: block;
+	font-size: 14px;
+	height: 33px;
+	padding: 7px 15px 0 15px;
+	margin-right: 2px;
+	color: #fff;	
+	text-decoration: none;
+	font-weight: normal;
+	text-align: center;
+	outline: none;
+}
+
+#menuPublic ul li a:hover, #menuPublic ul .current
+{
+    color: #00FF00;
+    background: url('../Images/MenuPublic/MenuPublicHover.png') bottom center no-repeat;
+}
+
+#menuPublic p { float: right; margin-top: 5px; }
+
+#menuPublic p a { display: inline-block; float: left; margin-left: 20px }

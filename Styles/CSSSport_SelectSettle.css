@@ -1,0 +1,6 @@
+﻿#sport_selectSettle { direction: rtl; font-family: Tahoma; font-size: 12px; color: White; text-align: right; line-height: 25px; width: 914px; }
+.sport_SettleFieldset { padding: 20px 50px 30px 50px; border: 1px solid #333; -moz-border-radius: 6px; -webkit-border-radius: 6px; color: White; }
+.sport_SettleNote { font-size: 14px; line-height: 40px; }
+.sport_BtnForm { border: thin solid #5d5852; font-family: Tahoma; font-size: 12px; width: 300px; height: 35px; background-color: #333333; color: #FFFFFF; margin: 5px 5px; cursor: pointer; outline: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.sport_BtnForm:hover { color: #ffcc00; font-size: 13px; background-color: #252525; }
+.sport_BankImage { border: 1px solid #8F8F8F; background-color: #494949; }

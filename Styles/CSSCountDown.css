@@ -1,0 +1,7 @@
+#example_pane { text-align: center; }
+#countdown_dashboard { border: thin solid White; height: 30px; width: 300px; margin: auto; background: #222222 url('dashboard_bg.png') no-repeat 0 0; }
+.dash { /*border: thin solid #FF0000;*/ width: 40px; height: 30px; float: left; margin-top: 10px; margin-left: 5px; padding-left: 2px; margin-bottom: 25px; position: relative; color: #FFE59E; }
+.days_dash { /*border: thin solid #FFFF00;*/ width: 40px; margin-left: 10px; }
+.dash .digit { /*border: thin solid #00FF00;*/ font: bold 14px Tahoma; font-weight: bold; float: left; width: 10px; text-align: right; position: relative; text-shadow: 0px -11px 10px #454428, 0px -3px 9px #FF0; }
+.dash_title { /*border: thin dotted #008000;*/ font-size: 10px; display: block; text-align: right; margin-right: 20px; color: #bdf; }
+.info_message { background-color: #222222; border: 2px solid #34779a; width: 200px; text-align: center; margin: auto; padding: 1px; margin-top: 10px; }

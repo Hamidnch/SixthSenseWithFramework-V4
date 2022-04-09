@@ -1,0 +1,191 @@
+﻿/*.ecoServices_mainContent
+{
+    clear: both;
+    width: 876px;
+    height: 650px;
+    margin: 0 9px 0 0;
+}*/
+.ecoServicesMainDescription
+{
+    clear: both;    
+    width: 852px;
+    height: 174px; 
+    padding: 0 12px 5px 0;  
+}
+.txtContent
+{
+    margin: 0 10px 0 0;
+    font-family: tahoma;
+    font-size: 15px;
+    background-color: #E5E5E5;
+    direction: rtl;
+    text-align: right;
+    line-height: 30px;
+    overflow: auto;
+    width: 812px;
+    height: 130px;
+    color: #4F000C;
+    text-align: right;
+    float: right;
+    padding: 10px;
+}
+.ecoServicesBorderTopLeft
+{
+    float: left;    
+    background-image: url('../Images/Economic/Economic_Services/EcoServices_BorderTopLeft.gif');
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 12px;
+}
+.ecoServicesBorderMiddleTop
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Services/EcoServices_BorderMiddleTop.gif');
+    background-repeat: repeat-x;
+    width: 831px;
+    height:12px;
+}
+.ecoServicesBorderTopRight
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Services/EcoServices_BorderTopRight.gif');
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 12px;
+}
+.ecoServicesContentMiddle
+{
+    clear: both;
+    background-image: url('../Images/Economic/Economic_Services/EcoServices_ContentMiddle.png');
+    background-repeat: repeat-y;
+    width: 852px;
+    height: 150px;
+}
+.ecoServicesBorderBottomLeft
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Services/EcoServices_BorderBottomLeft.gif');
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 12px;    
+}
+.ecoServicesBorderMiddleBottom
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Services/EcoServices_BorderMiddleBottom.gif');
+    background-repeat: repeat-x;
+    width: 831px;
+    height:12px;
+}
+.ecoServicesBorderBottomRight
+{
+    float: left;
+    background-image: url('../Images/Economic/Economic_Services/EcoServices_BorderBottomRight.gif');
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 12px;     
+}
+.btnContactUs
+{
+    color: #003300;
+}
+/*
+.ecoServices_topMainContent
+{
+    clear: both;
+    width: 876px; 
+    height:57px;
+}
+.ecoServices_LeftTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/SubEco_LeftTopContent.png');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 57px;
+}
+.ecoServices_MiddleTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/SubEco_MiddleTopContent.png');
+    background-repeat: repeat-x;   
+    width: 860px;
+    height: 57px;
+}
+.ecoServices_RightTopContent
+{
+    float: left;
+    background-image: url('../Images/Economic/SubEco_RightTopContent.png');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 57px;    
+}
+*/
+.ecoServices_MainTitr
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_ServicesTitr.jpg');
+    background-repeat: no-repeat;
+    width :115px;
+    height: 49px;
+}
+.ecoServices_MainDesc
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_ServicesDesc.gif');
+    background-repeat: no-repeat;
+    width: 858px;
+    height: 136px;
+}
+.ecoServices_IndustrialTitr
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_IndustrialTitr.jpg');
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 21px;   
+    margin: 0 9px 0 0;    
+}
+.ecoServices_IndustrialDesc
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_IndustrialDesc.gif');
+    background-repeat: no-repeat;
+    width: 858px;
+    height: 136px;   
+}
+.ecoServices_FinanceTitr
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_FinanceTitr.jpg');
+    background-repeat: no-repeat;
+    width: 158px;
+    height: 20px; 
+    margin: 0 9px 0 0;      
+}
+.ecoServices_FinanceDesc
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_FinanceDesc.gif');
+    background-repeat: no-repeat;
+    width: 858px;
+    height: 136px;      
+}
+.ecoServices_RegisterTitr
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_RegisterTitr.jpg');
+    background-repeat: no-repeat;
+    width: 153px;
+    height: 22px;  
+    margin: 0 9px 0 0;       
+}
+.ecoServices_RegisterDesc
+{
+    background-image: url('../Images/Economic/Economic_Services/Eco_RegisterDesc.gif');
+    background-repeat: no-repeat;
+    width: 858px;
+    height: 134px;     
+}
+.ecoServises_Titr
+{
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 18px 10px 0 0;
+    margin: 0 9px 0 0;    
+}

@@ -1,0 +1,80 @@
+﻿#sport_SettleInternetShetab
+{
+    direction: rtl;    
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 95%;
+    color:#fff;
+	background-color: #222222;    
+}
+#sport_SettleInternetShetab input[type='text']
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 19px;
+    direction: rtl;
+    background-color: #AE8B00;
+    color: #000000;
+    border: solid 1px #6b91ab;
+    padding: 4px 5px;
+    outline: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#sport_SettleInternetShetab input[type='button'], .radio
+{
+    border: thin solid #5d5852;
+    font-family: Tahoma;
+    font-size: 12px;
+    background-color: #494949;    
+    color: #FFFFFF;
+    margin: 5px 5px;    
+    cursor: pointer;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;      
+}
+img
+{
+    cursor: pointer;
+}
+#sport_SettleInternetShetab input[type='button']:hover
+{
+    color: #ffcc00;
+    font-size: 13px;
+    background-color: #252525;
+}
+#sport_SettleInternetShetab select
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 22px;
+    direction: rtl;
+	background-color:#252422;
+	color: Lime;	
+	border:solid 1px #6b91ab;
+	outline:0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.sport_BtnForm
+{
+    border: thin solid #5d5852;
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 150px;
+    height: 35px;
+    background-color: #333333;
+    color: #FFFFFF;
+    margin: 5px 5px;
+    cursor: pointer;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.sport_BtnForm:hover
+{
+    color: #ffcc00;
+    font-size: 13px;
+    background-color: #252525;
+}

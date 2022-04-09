@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SportPayment.master.cs" Inherits="Sport_SportPayment" %>
+
+<%@ Register src="../UserControl/LoginUserControl.ascx" tagname="LoginUserControl" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ورزش و مسابقات درحس ششم</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        <link href="../Styles/CSSSportMaster.css" rel="stylesheet" type="text/css" />
+        <link href="../Styles/CSSSport_Login.css" rel="stylesheet" type="text/css" />
+        <link href="../Styles/CSStxtLogin.css" rel="stylesheet" type="text/css" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<%--method="post" action="https://acquirer.sb24.com/CardServices/controller" onreset="this.action='';return false;"--%>
+    <form id="form_Payment" runat="server">
+    <div class="sport_Wrapper">
+            <div class="sport_Login">
+                <uc1:LoginUserControl ID="LoginUserControl1" runat="server" /> 
+            </div>
+            <div class="sport_HorizMenu">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="soprt_BottomMenuSeparator">
+            </div>
+            <div class="sport_MainContent">
+                <div class="sport_Content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="soprt_Footer"></div>
+            </div>
+        </div>
+        <div class="sport_End"></div>
+    </form>
+</body>
+</html>
